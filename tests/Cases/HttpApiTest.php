@@ -40,7 +40,7 @@ class HttpApiTest extends AbstractTestCase
         return $container->get(HttpApi::class);
     }
 
-    protected function createContainer(): ContainerInterface|Mockery\MockInterface|Mockery\LegacyMockInterface
+    protected function createContainer()
     {
         $config = Mockery::mock(ConfigInterface::class);
         $config->shouldReceive('get')->with('dtm.server', '127.0.0.1')->andReturn('127.0.0.1');
