@@ -8,10 +8,13 @@ declare(strict_types=1);
  */
 namespace DtmClient\Annotation;
 
-use Attribute;
 use Hyperf\Di\Annotation\AbstractAnnotation;
 
-#[Attribute(Attribute::TARGET_METHOD)]
+/**
+ * @Annotation
+ * @Target("METHOD")
+ * Class Barrier
+ */
 class Barrier extends AbstractAnnotation
 {
     public string $dbType = 'mysql';
