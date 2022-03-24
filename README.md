@@ -4,7 +4,7 @@ English | [中文](./README-CN.md)
 
 <p align="center">
   <a href="https://github.com/dtm-php/dtm-client/releases"><img src="https://poser.pugx.org/dtm-php/dtm-client/v/stable" alt="Stable Version"></a>
-  <a href="https://www.php.net"><img src="https://img.shields.io/badge/php-%3E=8.0-brightgreen.svg?maxAge=2592000" alt="Php Version"></a>
+  <a href="https://www.php.net"><img src="https://img.shields.io/badge/php-%3E=7.4-brightgreen.svg?maxAge=2592000" alt="Php Version"></a>
   <a href="https://github.com/dtm-php/dtm-client/blob/master/LICENSE"><img src="https://img.shields.io/github/license/dtm-php/dtm-client.svg" alt="dtm-client License"></a>
 </p>
 <p align="center">
